@@ -1,9 +1,9 @@
 [![phpBB](https://www.phpbb-es.com/foro/styles/flat-style/theme/images/logo_new_small.png)](https://www.phpbb-es.com)
 # [3.3.x][Ext][3.3.0] mChat on Board3 Portal
-This extension will allow you to have mChat displayed on your board3 portal (requires mChat 2.1.0+ installed).
+This extension will allow you to have mChat displayed on your board3 portal (requires mChat >= 2.1.0 installed).
 Block can be used in Top/Center/Bottom only.
 
-#### IF UPGRADING "mChat" DISABLE "mChat no Board3 Portal" extension BEFORE DOING SO or you can get locked out of ACP
+#### IF UPGRADING "mChat" DISABLE "mChat on Board3 Portal" extension BEFORE DOING SO or you can get locked out of ACP
 
 Below setting in mChat configuration IS REQUIRED to have mChat display on board3 portal:
 
@@ -12,7 +12,7 @@ Below setting in mChat configuration IS REQUIRED to have mChat display on board3
 ## Requirements
 * phpBB >= 3.3.0
 * PHP >= 7.1.3
-* mChat 2.1.0+ -> ( Download from [HERE](https://www.phpbb.com/customise/db/extension/mchat_extension/) ) -> !Important
+* mChat >= 2.1.0 -> ( Download from [HERE](https://www.phpbb.com/customise/db/extension/mchat_extension/) ) -> Important !!
 
 ## Install
 1. Download the latest release.
