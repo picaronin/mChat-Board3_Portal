@@ -1,0 +1,12 @@
+services:
+    talonos.b3pmchat.b3pmchat:
+        class: talonos\b3pmchat\b3pmchat
+        arguments:
+            - '@config'
+            - '@user'
+            - '@auth'
+            - '@template'
+            - '@?dmzx.mchat.core'
+            - '@?dmzx.mchat.settings'
+        tags:
+            - { name: board3.portal.module }

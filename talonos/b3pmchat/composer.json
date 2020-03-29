@@ -1,0 +1,56 @@
+{
+	"name": "talonos/b3pmchat",
+	"type": "phpbb-extension",
+	"description": "'mChat on Board3 Portal' requires mChat extension 2.1.0+ enabled to enable this extension",
+	"homepage": "https://github.com/picaronin/mChat-on-Board3_Portal",
+	"version": "3.3.0",
+	"time": "2020-03-28",
+	"keywords": ["phpbb", "extension", "mchat", "Board3"],
+	"license": "GPL-2.0-only",
+	"authors": [
+		{
+			"name": "dmzx",
+			"homepage": "http://www.dmzx-web.net",
+			"email": "info@dmzx-web.net",
+			"role": "Extension Developer"
+		},
+		{
+			"name": "kasimi",
+			"homepage": "https://www.phpbb.com/community/memberlist.php?mode=viewprofile&u=1330603",
+			"role": "Extension Co-Developer"
+		},
+		{
+			"name": "Rich McGirr",
+			"homepage": "http://rmcgirr83.org",
+			"role": "Author"
+		},
+		{
+			"name": "Talonos",
+			"homepage": "http://pretereo-stormrage.co.uk",
+			"role": "Board3 Extension Developer"
+		},
+		{
+			"name": "Picaron",
+			"homepage": "https://github.com/picaronin/mChat-on-Board3_Portal",
+			"role": "Customizer of extension"
+		}        
+	],
+	"require": {
+		"php": ">=7.1.3",
+		"phpbb/phpbb": ">=3.3.0"        
+	},
+	"require-dev": {
+		"phpbb/epv": "dev-master"
+	},
+	"extra": {
+		"display-name": "mChat on Board3 Portal",
+		"soft-require": {
+			"phpbb/phpbb": ">=3.3.0"
+			},
+		"version-check": {
+			"host": "www.siteproall.com",
+			"directory": "/pikaron/mchat_board3_portal",
+			"filename": "mchat_board3_portal_version"
+		}
+	}
+}
